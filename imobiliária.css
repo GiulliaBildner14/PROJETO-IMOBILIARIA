@@ -1,3 +1,8 @@
+*{
+ scroll-behavior: smooth;
+ list-style: none;
+}
+
 header {
     padding: 25px;
     background-color: #6c87c2;
@@ -11,10 +16,12 @@ header img {
 }
 
 header h1 {
-    color: #002078;
-    font-size: 30px;
+    color: #ffffff;
+    font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .menu ul {
@@ -31,10 +38,10 @@ header h1 {
 
 .menu ul li a {
     text-decoration: none;
-    color: #002078;
+    color: #ffffff;
     font-size: 10x;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
+    font-weight: bolder; 
     text-decoration: none;
 }
 
@@ -50,7 +57,7 @@ header h1 {
 .primeira div button {
     width: 150px;
     padding: 10px;
-    color: #002078;
+    color: #ffffff;
     background-color: #6c87c2;
     border-radius: 10px;
     display: flex;
@@ -129,7 +136,7 @@ header h1 {
 .quarta div p {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #6c87c275;
+    background-color: #5f79b1;
     padding: 15px;
     border-radius: 05px;
     color: azure;
@@ -142,7 +149,7 @@ header h1 {
 footer {
     background-color: #6c87c2;
     padding: 30px;
-    color: #002078;
+    color: #ffffff;
     text-align: center;
     line-height: 10px;
     font-size: 30px;
