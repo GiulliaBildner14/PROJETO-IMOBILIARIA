@@ -64,6 +64,11 @@ header h1 {
     justify-content: center;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.primeira div a {
+    text-decoration: none;
 }
 
 .segunda {

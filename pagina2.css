@@ -1,0 +1,223 @@
+
+*{
+    scroll-behavior: smooth;
+    list-style: none;
+   }
+   
+   header {
+       padding: 25px;
+       background-color: #6c87c2;
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+   }
+   
+   header img {
+       width: 70px;
+   }
+   
+   header h1 {
+       color: #ffffff;
+       font-size: 35px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       text-decoration: underline;
+       font-weight: lighter;
+       font-style: italic;
+   }
+
+   .menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.menu ul li {
+    list-style: none;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 10x;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+    text-decoration: none;
+}
+
+.APARTAMENTOS {
+    background-color: #c9cfdb;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.APARTAMENTOS h1 {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    color: #002078;
+}
+
+footer {
+    background-color: #6c87c2;
+    padding: 30px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text-footer {
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+.APARTAMENTOS {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.APARTAMENTOS1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.AP1 {
+    width: 375px;
+    height: 500px;
+    background-image: url(imagem/AP1.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+.AP2 {
+    width: 375px;
+    height: 500px;
+    background-image: url(imagem/AP2.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+.AP3 {
+    width: 375px;
+    height: 500px;
+    background-image: url(imagem/AP3.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+.CASAS {
+    background-color: #ffe0b8;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.CASAS h1 {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    color: #000000;
+}
+
+.CASAS2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.CA1 {
+    width: 375px;
+    height: 500px;
+    background-image: url(imagem/CA1.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+.CA2 {
+    width: 375px;
+    height: 500px;
+    background-image: url(imagem/CA2.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+.CA3 {
+    width: 375px;
+    height: 500px;
+    background-image: url(imagem/CA3.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+.TERRENOS {
+    background-color: #c9cfdb;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.TERRENOS h1 {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    color: #002078;
+}
+
+.TERRENOS {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.TERRENOS2  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.TE1 {
+    width: 375px;
+    height: 500px;
+    background-image: url(imagem/TE1.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+.TE2 {
+    width: 375px;
+    height: 500px;
+    background-image: url(imagem/TE2.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+.TE3 {
+    width: 375px;
+    height: 500px;
+    background-image: url(imagem/TE3.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
