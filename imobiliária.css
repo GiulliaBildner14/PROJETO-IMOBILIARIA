@@ -1,6 +1,7 @@
 * {
     scroll-behavior: smooth;
     list-style: none;
+    text-decoration: none;
 }
 
 header {
@@ -46,6 +47,24 @@ header h1 {
 }
 
 .menu ul li a:hover {
+    color: #002078;
+    transition: 0.8s;
+}
+
+.cadastro {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cadastro p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+}
+
+.cadastro p:hover {
     color: #002078;
     transition: 0.8s;
 }
@@ -138,6 +157,17 @@ header h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.imagemcasa img {
+    width: 350px;
+    margin: 40px;
+    box-shadow: 10px 10px 20px black;
+}
+
+.imagemcasa img:hover {
+    box-shadow: 20px 20px 30px black;
+    transition: 0.8s;
+}
+
 .quarta {
     padding: 150px;
     display: flex;
@@ -159,6 +189,12 @@ header h1 {
 
 .quarta iframe {
     border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+
+.quarta iframe:hover {
+    box-shadow: 20px 20px 30px black;
+    transition: 0.8s;
 }
 
 footer {

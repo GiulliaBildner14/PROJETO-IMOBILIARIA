@@ -1,6 +1,7 @@
 * {
     scroll-behavior: smooth;
     list-style: none;
+    text-decoration: none;
 }
 
 header {
@@ -46,6 +47,24 @@ header h1 {
 }
 
 .menu ul li a:hover {
+    color: #002078;
+    transition: 0.8s;
+}
+
+.cadastro {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cadastro p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+}
+
+.cadastro p:hover {
     color: #002078;
     transition: 0.8s;
 }
@@ -221,4 +240,9 @@ footer {
 .text-footer {
     font-size: 23px;
     font-weight: lighter;
+}
+
+.text-footer:hover {
+    color: #002078;
+    transition: 0.8s;
 }
