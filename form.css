@@ -1,9 +1,67 @@
-.cadastro {
-    padding: 60px;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
     background-color: #6c87c2;
-    color: #ffffff;
-    text-align: center;
-    line-height: 25px;
-    font-size: 20px;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro {
+    background: #ffe0b8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    line-height: 07px;
+}
+
+label {
+    margin-bottom: 5px;
     font-weight: bold;
+}
+
+.dombosco {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px solid #002078;
+    background-color: #ffffff
+}
+
+.botao {
+    background-color: #002078;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: #6c87c2;
+    transition: 0.10s;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #002078;
 }
