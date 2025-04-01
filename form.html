@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -14,29 +14,28 @@
 
 <body>
     <div class="cadastro">
+        
         <form action="">
+            <img src="imagem/house (1).png" alt="" width="70px">
             <h2>Faça seu cadastro agora</h2> <br>
+            <p>Conheça as nossas ofertas e descontos exclusivos para clientes da Jk Imobiliária.</p> <br>
             <label for="name"></label>
-            <input type="name" class="input-name dombosco" id="input-name" name="input-name" placeholder="Nome">
+            <input type="name" class="input-name dombosco" id="input-name" name="input-name" placeholder="Nome" required>
             <br>
             <label for="input-email"></label>
-            <input type="email" class="input-email dombosco" id="input-email" name="input-email" placeholder="Email"> <br>
+            <input type="email" class="input-email dombosco" id="input-email" name="input-email" placeholder="Email" required> <br>
             <label for=""></label>
-            <input type="number" class="input-number dombosco" id="input-number" name="input-number" placeholder="Telefone">
+            <input type="number" class="input-number dombosco" id="input-number" name="input-number" placeholder="Telefone" required>
             <br>
             <label for="input-password"></label>
-            <input type="password" class="input-password dombosco" id="input-password" name="input-password" placeholder="Senha">
+            <input type="password" class="input-password dombosco" id="input-password" name="input-password" placeholder="Senha" required>
             <br>
-            <input type="submit" value="Enviar" class="botao">
+            <label for="input-password"></label>
+            <input type="password" class="input-password dombosco" id="input-password" name="input-password" placeholder="Confirmar senha" required>
+            <br>
+            <input type="submit" value="Cadastrar" class="botao">
         </form>
         <br>
-        <div>
-            <img src="imagem/house (1).png" alt="" width="70px">
-        </div>
-    </div>
-
-
-
     <!--- 
 label= usado como etiqueta para formulário, peça fundamental para a construção de formulários. o (for "") que é vinculado com ele servirá para indentificar a qual input ele pertence/conversa.
 input= utilizado para especificar o tipo de entrada da informção (text, email, password, date etc...) sempre lembrar que o input precisa ter um ID, CLASS e NAME para facilitar em ações futuras.
