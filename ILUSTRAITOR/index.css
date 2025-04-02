@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    background-color: darkgrey;
+    padding: 15px;
+    align-items: center;
+}
+
+header img {
+    width: 250px;
+    height: auto;
+
+}
+
+header button {
+    width: 150px;
+    padding: 3px;
+    border: none;
+    background-color: azure;
+    color: crimson;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background-color: black;
+    color: azure;
+    transition: 0.8s;
+    cursor: pointer;
+    border-radius: 5px;
+}
