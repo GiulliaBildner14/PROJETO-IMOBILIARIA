@@ -34,3 +34,12 @@ header button:hover {
     cursor: pointer;
     border-radius: 5px;
 }
+
+.primeira {
+    background: rgb(255,28,113);
+    background: linear-gradient(90deg, rgba(255,28,113,0.5326505602240896) 0%, rgba(154,22,58,0.14609593837535018) 100%, rgba(255,104,168,0.1516981792717087) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 273px;
+}
